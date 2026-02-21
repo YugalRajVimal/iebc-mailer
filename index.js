@@ -13,7 +13,9 @@ server.use(
     origin: [
       "https://indoeuropeancouncil.eu",
       "http://localhost:5173",
-      "http://localhost:3000"
+      "http://localhost:3000",
+      "https://iebc-ktz9.onrender.com",
+      "https://www.iebc-ktz9.onrender.com"
     ],
     methods: "GET,POST,PUT,DELETE,OPTIONS",
     allowedHeaders: "Content-Type, Authorization",
