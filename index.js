@@ -156,6 +156,6 @@ server.post("/send-mail", (req, res) => {
   });
 });
 
-server.listen(8080, () => {
+server.listen(7676, () => {
   console.log("IEBC server is running on port 8080");
 });
